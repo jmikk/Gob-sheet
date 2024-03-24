@@ -1,5 +1,5 @@
-from .issues import issues
+from .Gob-sheet import Gob-sheet
 
 
 async def setup(bot):
-    await bot.add_cog(issues(bot))
+    await bot.add_cog(Gob-sheet(bot))
